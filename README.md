@@ -25,3 +25,6 @@ A line in the demo.segmentation.txt file represents a segment in the genome, and
 Unfortunately we are not able to share the segment modelling script publically, as it is part of our commercial product [华然迪®](https://oncology.bgi.com/huarandi.html) Also, our segment algorithm has many components that are customized for our HRD panel, and is normally not compatible with external data.
 
 A potential way to generate the segment file tumor purity and tumor ploidy files is by using the ASCAT algorithm developed by Peter Van Loo et al. in [Allele-specific copy number analysis of tumors](https://www.pnas.org/content/107/39/16910?with-ds=yes), and the software (R package) can be found [Here](https://www.crick.ac.uk/research/labs/peter-van-loo/software) or using the PurceCN algorithm developed by Markus Riester et al. in [PureCN: copy number calling and SNV classification using targeted short read sequencing](https://link.springer.com/article/10.1186/s13029-016-0060-z),and the software can be found [Here](http://bioconductor.org/packages/release/bioc/html/PureCN.html).
+
+# Contacts
+Please contact Minghui Shao shaominghui@genomics.cn , if you have any questions.
