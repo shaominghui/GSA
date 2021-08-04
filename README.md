@@ -12,11 +12,11 @@ The main output files of GSA are demo.segmentation.txt, demo.purity_ploidy.txt, 
 
 # What does each column in the demo.segmentation.txt file mean?
 A line in the demo.segmentation.txt file represents a segment in the genome, and each column means:
-* Chr:
-* id:
-* loc.start:
-* loc.end:
-* seg.len:
-* events:
-* nA:
-* nB:
+* Chr:chromosome number of the segment
+* id:the number of the segment on each chromosome
+* loc.start:start locus of the segment
+* loc.end:end locus of the segment
+* seg.len:the length of the segment
+* events:the number of events in the segment
+* nA:the copy number of A allele
+* nB:the copy number of B allete
