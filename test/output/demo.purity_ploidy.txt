@@ -1,0 +1,2 @@
+sample	purity	ploidy
+demo	 0.76	 3.53
