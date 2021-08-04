@@ -12,11 +12,16 @@ The main output files of GSA are demo.segmentation.txt, demo.purity_ploidy.txt, 
 
 # What does each column in the demo.segmentation.txt file mean?
 A line in the demo.segmentation.txt file represents a segment in the genome, and each column means:
-* Chr:chromosome number of the segment
-* id:the number of the segment on each chromosome
-* loc.start:start locus of the segment
-* loc.end:end locus of the segment
-* seg.len:the length of the segment
-* events:the number of events in the segment
-* nA:the copy number of A allele
-* nB:the copy number of B allete
+* Chr: chromosome number of the segment
+* id: the number of the segment on each chromosome
+* loc.start: start locus of the segment
+* loc.end: end locus of the segment
+* seg.len: the length of the segment
+* events: the number of events in the segment
+* nA: the copy number of A allele
+* nB: the copy number of B allete
+
+# How to generate the dependent segment file tumor purity and tumor ploidy files?
+Unfortunately we are not able to share the segment modelling script publically, as it is part of our commercial product [华然迪®(https://oncology.bgi.com/huarandi.html)] Also, our copy number algorithm has many components that are customized for our assay ( baitset design, data format etc.), and is normally not compatible with external data.
+
+A potential way to generate the CNA file is by using the ASCAT algorithm developed by Peter Van Loo et al. in Allele-specific copy number analysis of tumors, and the software (R package) can be found Here.
