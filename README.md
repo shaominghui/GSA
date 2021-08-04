@@ -22,6 +22,6 @@ A line in the demo.segmentation.txt file represents a segment in the genome, and
 * nB: the copy number of B allete
 
 # How to generate the dependent segment file tumor purity and tumor ploidy files?
-Unfortunately we are not able to share the segment modelling script publically, as it is part of our commercial product [华然迪®(https://oncology.bgi.com/huarandi.html)] Also, our copy number algorithm has many components that are customized for our assay ( baitset design, data format etc.), and is normally not compatible with external data.
+Unfortunately we are not able to share the segment modelling script publically, as it is part of our commercial product [华然迪®](https://oncology.bgi.com/huarandi.html) Also, our copy number algorithm has many components that are customized for our assay ( baitset design, data format etc.), and is normally not compatible with external data.
 
 A potential way to generate the CNA file is by using the ASCAT algorithm developed by Peter Van Loo et al. in Allele-specific copy number analysis of tumors, and the software (R package) can be found Here.
