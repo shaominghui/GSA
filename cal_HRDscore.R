@@ -22,8 +22,8 @@ cal_disnum <- function(LST){
 }
 
 cal.LST <- function(final_result){
-  LST <- data.frame(out$final_result[,c("Chr","loc.start","loc.end")],
-                    rowSums(out$final_result[,c("nA","nB")]))
+  LST <- data.frame(final_result[,c("Chr","loc.start","loc.end")],
+                    rowSums(final_result[,c("nA","nB")]))
   disnum <- cal_disnum(LST)
   if(length(which(is.na(LST[,4]))) != 0){
     LST <- LST[-which(is.na(LST[,4])),]
